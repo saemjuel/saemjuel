@@ -333,13 +333,13 @@ color: #383d3d
     font-size: 20px;
   }
   .content .name {
-    font-size: 30px;
+    font-size: 20px;
     border-bottom: 10px solid #80c0f5;
   }
   
   .content .professions {
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 12px;
   }
 
   .link ul {
