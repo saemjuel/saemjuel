@@ -34,7 +34,7 @@ body {
 .main-nav a {
   text-decoration: none;
   color: #4a5568;
-  font-family: Playfair Display, serif;
+  font-family:"Playfair Display", serif;
   font-size: 16px;
   font-weight: bold;
 }
@@ -358,6 +358,14 @@ color: #383d3d
     font-size: 25px;
   }
 
+  button{
+    font-size: 20px;
+  }
+
+  .fa-angle-down {
+    font-size: 40px;
+  }
+
   .about {
     display: grid;
     margin-top: 20px; 
@@ -395,4 +403,30 @@ color: #383d3d
   }
   
 }
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .main-menu a {
+    font-size: 14px;
+     } 
+  
+     
+  .content .intro {
+    margin-top: 10px;
+    font-size: 45px;
+  }
+  .content .name {
+    font-size: 45px;
+    
+  }
+  
+  .content .professions {
+    font-size: 23px;
+  }
+
+  
+  .link a {
+    font-size: 30px;
+  }
+ 
+ }
 
