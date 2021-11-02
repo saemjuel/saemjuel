@@ -409,10 +409,14 @@ color: #383d3d
   
 }
 
-@media (min-width: 700px) and (max-width: 900px) {
+@media (min-width: 700px) and (max-width: 1140px) {
   .main-menu a {
     font-size: 14px;
      } 
+  
+   .content {
+      height: 650px;
+    }
   
      
   .content .intro {
@@ -432,6 +436,40 @@ color: #383d3d
   .link a {
     font-size: 30px;
   }
+  
+  .about {
+    display: grid;
+    margin-top: 20px; 
+  }
+  
+  .about-img{
+    width: 100%;
+    margin-left: 7px;
+    margin-bottom: 3px;
+  }
+
+  
+  .about-content{
+   width: 100%;
+  }
+  
+  .about-content h2 {
+    width: 44%;
+    font-size: 30px;
+    font-family: Playfair Display, serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+     }
+  
+  .about-content p{
+  font-size: 1.5rem;
+  font-family: Playfair Display, serif;
+  color: #383d3d;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  }
+ 
  
  }
 
